@@ -69,28 +69,10 @@ This project follows strict academic requirements:
 -  All pathfinding algorithms implemented from scratch
 -  Linked list (`UserRouteList`) used for multi-leg route management
 
-##  Building
-
-### Prerequisites
+## Prerequisites
 - **Visual Studio 2022+** with C++ Desktop Development workload
 - **SFML 2.6.1** 
 - **CMake 3.16+** (bundled with Visual Studio)
-
-### Build Steps
-
-1. Open **Developer Command Prompt for VS**
-2. Navigate to project directory
-3. Run:
-```bash
-cmake -B build -G "Visual Studio 17 2022" -A x64
-cmake --build build --config Release
-```
-4. Run from: `build/bin/Release/OceanRouteNav.exe`
-
-### Alternative: Visual Studio
-1. Open `CMakeLists.txt` in Visual Studio (File → Open → CMake)
-2. Build with `Ctrl+Shift+B`
-3. Run with `F5`
 
 ##  Controls
 
